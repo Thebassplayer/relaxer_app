@@ -1,5 +1,5 @@
 const container = document.getElementById("container");
-const circleText = document.getElementById("text");
+const circleText = document.getElementById("circle-text");
 
 const totalTime = 7500;
 const breathTime = (totalTime / 5) * 2;
