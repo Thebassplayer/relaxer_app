@@ -30,8 +30,8 @@ p.circle-text {
   align-items: center;
   justify-content: center;
   margin: auto;
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   transform: scale(1);
 }
 
@@ -54,28 +54,28 @@ p.circle-text {
     #336d62 60%,
     #2a5b52 100%
   );
-  height: 320px;
-  width: 320px;
+  height: 267px;
+  width: 267px;
   z-index: -2;
   border-radius: 50%;
-  top: -10px;
-  left: -10px;
+  top: -8px;
+  left: -8px;
 }
 
 .pointer {
   background-color: #fff;
   border-radius: 50%;
-  height: 20px;
-  width: 20px;
+  height: 17px;
+  width: 17px;
   display: block;
 }
 
 .pointer-container {
   position: absolute;
-  top: -40px;
-  left: 140px;
-  width: 20px;
-  height: 190px;
+  top: -33px;
+  left: 115px;
+  width: 17px;
+  height: 158px;
   animation: rotate 7.5s linear forwards infinite;
   transform-origin: bottom center;
 }
@@ -113,5 +113,24 @@ p.circle-text {
   }
   to {
     transform: scale(1);
+  }
+}
+
+@media (min-width: 600px) {
+  .container {
+    height: 300px;
+    width: 300px;
+  }
+  .gradient-circle {
+    height: 320px;
+    width: 320px;
+    top: -10px;
+    left: -10px;
+  }
+  .pointer-container {
+    top: -40px;
+    left: 140px;
+    width: 20px;
+    height: 190px;
   }
 }
